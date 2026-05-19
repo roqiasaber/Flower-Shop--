@@ -138,41 +138,6 @@ nav a:hover{
     background-color: #c2185b;
 }
 
-/* Contact Section */
-
-.Contact{
-    padding: 60px 20px;
-    text-align: center;
-    background-color: #FFB6C1;
-}
-
-.Contact input{
-    width: 80%;
-    max-width: 500px;
-    padding: 15px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    font-size: 16px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(241, 90, 205);
-}
-
-.Contact button{
-    margin-top: 15px;
-    background-color: #ff69b4;
-    color: white;
-    border: none;
-    padding: 10px 25px;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: 0.3s;
-}
-
-.Contact button:hover{
-    background-color: #c2185b;
-}
 
 /* Footer */
 
