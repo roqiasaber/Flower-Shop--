@@ -10,7 +10,7 @@ body{
     background-color: #FFB6C1;
 }
 
-.Contact input{
+.contact input{
     width: 80%;
     max-width: 500px;
     padding: 15px;
@@ -22,7 +22,7 @@ body{
     color: rgb(241, 90, 205);
 }
 
-.Contact button{
+.contact button{
     margin-top: 15px;
     background-color: #ff69b4;
     color: white;
@@ -34,6 +34,6 @@ body{
     transition: 0.3s;
 }
 
-.Contact button:hover{
+.contact button:hover{
     background-color: #c2185b;
 }
