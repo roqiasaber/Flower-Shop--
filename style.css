@@ -137,7 +137,20 @@ nav a:hover{
 .buy-btn:hover{
     background-color: #c2185b;
 }
+<!--Contact-->
+.Contact{
+    padding: 60px 20px;
+    background-color: #FFB6C1;
+    text-align: center;
+    margin-top: 80px;
+}
 
+.Contact p{
+    font-size: 22px;
+    color: #c2185b;
+    line-height: 1.8;
+    font-weight: bold;
+}
 
 /* Footer */
 
