@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #FF6B35;
+    background-color: #f5f0f0;
     font-family: Arial, Helvetica, sans-serif;
 
     display: flex;
@@ -46,7 +46,7 @@ body{
     border-radius: 10px;
 
     font-size: 16px;
-    background-color: #99AD7A;
+    background-color: #fcfff9;
 }
 
 .payment-box button{
