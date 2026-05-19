@@ -1,4 +1,10 @@
-.body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
     padding: 60px 20px;
     text-align: center;
     background-color: #FFB6C1;
