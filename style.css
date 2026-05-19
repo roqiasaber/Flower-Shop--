@@ -17,7 +17,7 @@ body{
 /* Header */
 
 header{
-    background-color: #FFB6C1;
+    background-color: #fcfcfc;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,14 +31,14 @@ header h1{
 
 nav a{
     text-decoration: none;
-    color: white;
+    color: #c2185b;
     margin-left: 20px;
     font-size: 18px;
     transition: 0.3s;
 }
 
 nav a:hover{
-    color: #c2185b;
+   background-color: #65062c;
 }
 
 /* Hero Section */
@@ -48,7 +48,7 @@ nav a:hover{
     justify-content: space-between;
     align-items: center;
     padding: 60px;
-    background-color: #FF8B5A;
+    background-color: #FFB6C1;
 }
 
 .title h2{
@@ -143,6 +143,7 @@ nav a:hover{
 .Contact{
     padding: 60px 20px;
     text-align: center;
+    background-color: #FFB6C1;
 }
 
 .Contact input{
@@ -153,8 +154,8 @@ nav a:hover{
     border: 1px solid #ccc;
     border-radius: 10px;
     font-size: 16px;
-    background-color: #FF8B5A;
-    color: aliceblue;
+    background-color: rgb(255, 255, 255);
+    color: rgb(241, 90, 205);
 }
 
 .Contact button{
