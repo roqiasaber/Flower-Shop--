@@ -1,0 +1,185 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Great Vibes', cursive;
+    background-color: #FFB;
+    color: #333;
+}
+
+/* Header */
+
+header{
+    background-color: #FFB6C1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+header h1{
+    font-size: 35px;
+    color: #c2185b;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #c2185b;
+}
+
+/* Hero Section */
+
+.Home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-color: #FF8B5A;
+}
+
+.title h2{
+    font-size: 50px;
+    color: #c2185b;
+    margin-bottom: 15px;
+}
+
+.title p{
+    font-size: 20px;
+    color: #555;
+}
+
+.Home img{
+    width: 50%;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Shop Section */
+
+.Shop{
+    padding: 60px 30px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.Shop h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #c2185b;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #FFEF9F;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card h2{
+    margin: 15px 0;
+    color: #c2185b;
+}
+
+.card p{
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* Buy Button */
+
+.buy-btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.buy-btn:hover{
+    background-color: #c2185b;
+}
+
+/* Contact Section */
+
+.Contact{
+    padding: 60px 20px;
+    background-color: #BABF94;
+    text-align: center;
+}
+
+.Contact input{
+    width: 80%;
+    max-width: 500px;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #FF8B5A;
+    color: aliceblue;
+}
+
+.Contact button{
+    margin-top: 15px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.Contact button:hover{
+    background-color: #c2185b;
+}
+
+/* Footer */
+
+footer{
+    background-color: #FF4081;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
